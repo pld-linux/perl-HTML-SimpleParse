@@ -2,8 +2,8 @@
 Summary:	HTML-SimpleParse perl module
 Summary(pl):	Modu³ perla HTML-SimpleParse
 Name:		perl-HTML-SimpleParse
-Version:	0.08
-Release:	2
+Version:	0.10
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
