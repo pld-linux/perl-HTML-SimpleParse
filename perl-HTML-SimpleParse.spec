@@ -26,7 +26,7 @@ HTML::SimpleParse jest modu³em pozwalaj±cym analizowaæ pliki HTML.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
