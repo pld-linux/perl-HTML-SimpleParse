@@ -4,12 +4,12 @@
 Summary:	HTML::SimpleParse perl module
 Summary(pl):	Modu³ perla HTML::SimpleParse
 Name:		perl-HTML-SimpleParse
-Version:	0.11
-Release:	2
+Version:	0.12
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	08a5d8cf9a2845add250479786e59f08
+# Source0-md5:	f557818d78932654f9ca8dfeae2566b1
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 5.6
 BuildArch:	noarch
