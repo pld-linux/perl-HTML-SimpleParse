@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	HTML
 %define	pnam	SimpleParse
-Summary:	HTML-SimpleParse perl module
-Summary(pl):	Modu³ perla HTML-SimpleParse
+Summary:	HTML::SimpleParse perl module
+Summary(pl):	Modu³ perla HTML::SimpleParse
 Name:		perl-HTML-SimpleParse
 Version:	0.10
 Release:	7
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-HTML-SimpleParse module.
+HTML::SimpleParse module.
 
 %description -l pl
-HTML-SimpleParse jest modu³em pozwalaj±cym analizowaæ pliki HTML.
+HTML::SimpleParse jest modu³em pozwalaj±cym analizowaæ pliki HTML.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
