@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	HTML
 %define	pnam	SimpleParse
-Summary:	HTML::SimpleParse perl module
-Summary(pl):	Modu³ perla HTML::SimpleParse
+Summary:	HTML::SimpleParse - a bare-bones HTML parser
+Summary(pl):	HTML::SimpleParse - analizator sk³adniowy "go³ego szkieletu" HTML-a
 Name:		perl-HTML-SimpleParse
 Version:	0.12
 Release:	1
@@ -17,10 +17,14 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-HTML::SimpleParse module.
+The HTML::SimpleParse module is a simple HTML parser.  It is similar
+in concept to HTML::Parser, but it differs from HTML::TreeBuilder in a
+couple of important ways.
 
 %description -l pl
-HTML::SimpleParse jest modu³em pozwalaj±cym analizowaæ pliki HTML.
+HTML::SimpleParse jest prostym modu³em pozwalaj±cym analizowaæ pliki
+HTML. Jest podobny w idei do HTML::Parser, ale ró¿ni siê w kilku
+istotnych sprawach od HTML::TreeBuilder.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
