@@ -25,7 +25,7 @@ HTML-SimpleParse jest modu³em pozwalaj±cym analizowaæ pliki HTML.
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
