@@ -2,9 +2,9 @@
 Summary:	HTML-SimpleParse perl module
 Summary(pl):	Modu³ perla HTML-SimpleParse
 Name:		perl-HTML-SimpleParse
-Version:	0.06
-Release:	3
-Copyright:	GPL
+Version:	0.08
+Release:	1
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/HTML/HTML-SimpleParse-%{version}.tar.gz
