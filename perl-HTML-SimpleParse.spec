@@ -6,7 +6,8 @@ Summary(pl):	Modu³ perla HTML::SimpleParse
 Name:		perl-HTML-SimpleParse
 Version:	0.12
 Release:	1
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	f557818d78932654f9ca8dfeae2566b1
