@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	HTML
-%define	pnam	SimpleParse
+%define		pdir	HTML
+%define		pnam	SimpleParse
 Summary:	HTML::SimpleParse - a bare-bones HTML parser
 Summary(pl):	HTML::SimpleParse - analizator sk³adniowy "go³ego szkieletu" HTML-a
 Name:		perl-HTML-SimpleParse
