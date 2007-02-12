@@ -6,7 +6,7 @@
 %define		pdir	HTML
 %define		pnam	SimpleParse
 Summary:	HTML::SimpleParse - a bare-bones HTML parser
-Summary(pl):	HTML::SimpleParse - analizator sk³adniowy "go³ego szkieletu" HTML-a
+Summary(pl.UTF-8):   HTML::SimpleParse - analizator skÅ‚adniowy "goÅ‚ego szkieletu" HTML-a
 Name:		perl-HTML-SimpleParse
 Version:	0.12
 Release:	1
@@ -25,9 +25,9 @@ The HTML::SimpleParse module is a simple HTML parser.  It is similar
 in concept to HTML::Parser, but it differs from HTML::TreeBuilder in a
 couple of important ways.
 
-%description -l pl
-HTML::SimpleParse jest prostym modu³em pozwalaj±cym analizowaæ pliki
-HTML. Jest podobny w idei do HTML::Parser, ale ró¿ni siê w kilku
+%description -l pl.UTF-8
+HTML::SimpleParse jest prostym moduÅ‚em pozwalajÄ…cym analizowaÄ‡ pliki
+HTML. Jest podobny w idei do HTML::Parser, ale rÃ³Å¼ni siÄ™ w kilku
 istotnych sprawach od HTML::TreeBuilder.
 
 %prep
