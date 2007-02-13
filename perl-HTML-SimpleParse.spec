@@ -6,7 +6,7 @@
 %define		pdir	HTML
 %define		pnam	SimpleParse
 Summary:	HTML::SimpleParse - a bare-bones HTML parser
-Summary(pl.UTF-8):   HTML::SimpleParse - analizator składniowy "gołego szkieletu" HTML-a
+Summary(pl.UTF-8):	HTML::SimpleParse - analizator składniowy "gołego szkieletu" HTML-a
 Name:		perl-HTML-SimpleParse
 Version:	0.12
 Release:	1
