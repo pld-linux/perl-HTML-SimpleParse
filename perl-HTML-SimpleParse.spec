@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	HTML
 %define		pnam	SimpleParse
+%include	/usr/lib/rpm/macros.perl
 Summary:	HTML::SimpleParse - a bare-bones HTML parser
 Summary(pl.UTF-8):	HTML::SimpleParse - analizator składniowy "gołego szkieletu" HTML-a
 Name:		perl-HTML-SimpleParse
@@ -15,14 +15,15 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	f557818d78932654f9ca8dfeae2566b1
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		http://search.cpan.org/dist/HTML-SimpleParse/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-The HTML::SimpleParse module is a simple HTML parser.  It is similar
-in concept to HTML::Parser, but it differs from HTML::TreeBuilder in a
+The HTML::SimpleParse module is a simple HTML parser. It is similar in
+concept to HTML::Parser, but it differs from HTML::TreeBuilder in a
 couple of important ways.
 
 %description -l pl.UTF-8
