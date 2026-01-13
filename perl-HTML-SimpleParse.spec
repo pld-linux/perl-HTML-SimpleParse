@@ -8,7 +8,7 @@ Summary:	HTML::SimpleParse - a bare-bones HTML parser
 Summary(pl.UTF-8):	HTML::SimpleParse - analizator składniowy "gołego szkieletu" HTML-a
 Name:		perl-HTML-SimpleParse
 Version:	0.12
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
